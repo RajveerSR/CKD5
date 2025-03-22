@@ -4,7 +4,7 @@ import streamlit as st
 import pickle
 st.title("Chronic Kidney Disease Risk Factor Prediction")
 
-st.sidebar.title("Queires or Issues")
+st.sidebar.title("Queries or Issues")
 st.sidebar.info(
     """
     For any issues with app usage, please contact: n1009755@my.ntu.ac.uk
