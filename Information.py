@@ -1,7 +1,5 @@
 import pandas as pd
 import streamlit as st
-import numpy as np
-from sklearn.linear_model import LogisticRegression as lr
 
 import pickle
 st.title("Chronic Kidney Disease Risk Factor Prediction")

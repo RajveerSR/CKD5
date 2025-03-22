@@ -29,7 +29,7 @@ st.expander("ℹ️ General Information", expanded=False).markdown(
     """
 )
 
-st.write("Dataset Comparison")
+#st.write("Dataset Comparison")
 df_csv = pd.read_csv('data/renamed_num.csv')
 df_csv['Legend'] = 'CSV Data'
 
@@ -38,7 +38,7 @@ if "new_df" in st.session_state and not st.session_state.new_df.empty:
     df_user = st.session_state.new_df.copy()
     df_user['Legend'] = 'User Input'
     combined_df = pd.concat([df_csv, df_user], ignore_index=True)
-    st.dataframe(combined_df)
+    #st.dataframe(combined_df)
 else:
     combined_df = df_csv
 #differenciation user data vs ds
