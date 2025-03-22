@@ -42,7 +42,7 @@ if "new_df" in st.session_state and not st.session_state.new_df.empty:
 else:
     combined_df = df_csv
 #differenciation user data vs ds
-color_map = {"CSV Data": "purple", "User Input": "yellow"}
+color_map = {"CSV Data": "purple", "User Input": "pink"}
 
 x_scatter = st.selectbox('Scatter Plot - X axis', combined_df.columns, key='scatter_x')
 y_scatter = st.selectbox('Scatter Plot - Y axis', combined_df.columns, key='scatter_y')
