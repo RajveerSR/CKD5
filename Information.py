@@ -31,8 +31,8 @@ with a:
     with st.expander("ℹ️ General Instructions", expanded=False):
         st.markdown(
             """
-            ### KD5 Predictor
-            This web app is designed to predict the risk of Chronic Kidney Disease (CKD) based on various risk factors. This app uses a Logistic Regression (LR) algorithm to help predict CKD this algorithm is trained from the Chronic Kidney Disease dataset from the UCI Machine Learning Repository. Using the avalible training data, the model has a testing accuracy of 95%. Please consult a medical professional for a formal diagnosis.
+            ### CKD5 Predictor
+            This web app is designed to predict the risk of Chronic Kidney Disease (CKD) based on various risk factors. This app uses a Logistic Regression (LR) algorithm to help predict CKD this algorithm is trained from the Chronic Kidney Disease dataset from the UCI Machine Learning Repository. Using the avalible training data, the model has a testing accuracy of 98%. Please consult a medical professional for a formal diagnosis.
             """
         )
     
